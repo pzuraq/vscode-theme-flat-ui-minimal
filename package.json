@@ -1,0 +1,23 @@
+{
+    "name": "theme-flat-ui-minimal",
+    "displayName": "theme-flat-ui-minimal",
+    "repository": "https://github.com/pzuraq/vscode-theme-flat-ui-minimal",
+    "description": "More minimal version of the flat-ui theme",
+    "version": "1.0.0",
+    "publisher": "pzuraq",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flat UI Minimal",
+                "uiTheme": "vs",
+                "path": "./themes/Flat UI Minimal-color-theme.json"
+            }
+        ]
+    }
+}
